@@ -1,4 +1,4 @@
-# ✅ ✅ Tasks - Sprint [Number]
+# ✅ Tasks - Sprint [1]
 
 ## 🗓 Week 1 (Build)
 
