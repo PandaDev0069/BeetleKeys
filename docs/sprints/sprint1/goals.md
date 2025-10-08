@@ -2,15 +2,21 @@
 
 ## Must-Have
 
-1. Goal 1 - Description
-2. Goal 2 - Description
+1. Confirm the techstack
+    - [ ] Research and finalize the tech stack for the typing engine
+    - [ ] Document the tech stack decisions and rationale
+    - [ ] Set up initial project structure with chosen technologies
+
+2. Create a basic typing engine prototype
+    - [ ] Implement core typing functionality (input handling, basic text display)
+    - [ ] Ensure the prototype can run in a simple environment (e.g., command line)
+    - [ ] Write initial tests to validate core functionality
 
 ## Stretch
 
-- Extra improvement if time
-- UI polish idea
+- Add a simple gui for typing engine
   
 ## Success Criteria
 
-- What "done" looks like
-- Measurable output
+- Tech stack should be documented and easy to use and learn.
+- Prototype should demonstrate basic typing functionality without major bugs.

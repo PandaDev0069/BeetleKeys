@@ -4,8 +4,8 @@
 
 ### Wednesday (Main Coding Block)
 
-- [ ] Implement feature A
-- [ ] Write test for module B
+- [ ] Research and finalize tech stack
+- [ ] Set up project structure
 
 ### Saturday (Deep Work)
 

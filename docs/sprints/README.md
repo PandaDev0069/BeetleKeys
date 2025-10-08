@@ -48,8 +48,9 @@ Each sprint runs for **2 Weeks** with a simple cycle:
 1. Copy the previous sprint folder:
 
     ``` bash
-    cd docs/sprints && cp -r template sprintX <!--  fill the number manually(or just duplicate manually if on windows)--->
+    cd docs/sprints && cp -r template sprintX 
     ```
+      <!--  fill the number manually(or just duplicate manually if on windows)--->
 
 2. Rename the files (sprintX.md etc).
 3. Update the Dates and Goals in sprintN+1.md.

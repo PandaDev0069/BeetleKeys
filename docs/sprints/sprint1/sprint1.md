@@ -2,25 +2,27 @@
 
 ## Dates
 
-- Start: YYYY/MM/DD
-- End: YYYY/MM/DD
+- Start: 2025/10/08
+- End: 2025/10/18
 
 ## 🎯 Goals (Sprint Objectives)
 
-- [ ] Feature/Module to complete
-- [ ] Prototype to validate
-- [ ] Docs to update
+- [ ] Confirm the techstack
+- [ ] Create a basic typing engine to prove feasibility
 
 ## ✅ Must-Have Tasks
 
-- [ ] Task 1
-- [ ] Task 2
-- [ ] Task 3
+- [ ] Research and finalize the tech stack for the typing engine
+- [ ] Document the tech stack decisions and rationale
+- [ ] Set up initial project structure with chosen technologies
+- [ ] Implement core typing functionality (input handling, basic text display)
+- [ ] Ensure the prototype can run in a simple environment (e.g., command line)
+- [ ] Write initial tests to validate core functionality
 
 ## ⭐ Stretch Tasks (if time allows)
 
-- [ ] Extra feature
-- [ ] UI polish
+- [ ] Add a simple GUI for the typing engine
+- [ ] UI polish ideas
 
 ## 🚍 Commute Notes
 
