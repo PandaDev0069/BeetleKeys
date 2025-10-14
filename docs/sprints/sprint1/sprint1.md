@@ -3,7 +3,7 @@
 ## Dates
 
 - Start: 2025/10/08
-- End: 2025/10/18
+- End: Not decided yet
 
 ## 🎯 Goals (Sprint Objectives)
 
