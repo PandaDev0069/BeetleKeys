@@ -2,8 +2,10 @@
 
 ## Must-Have
 
-1. Goal 1 - Description
-2. Goal 2 - Description
+1. ホームページ
+2. ログインページ
+3. レジスターページ
+
 
 ## Stretch
 
