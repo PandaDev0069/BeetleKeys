@@ -1,20 +1,35 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <div className="z-10 max-w-5xl w-full items-center font-mono text-sm">
-        <h1 className="text-4xl font-bold text-center bg-linear-to-r from-teal-200 to-teal-500 bg-clip-text text-transparent mb-8">
-          ようこそ BeetleKeys へ
+    <main className="flex min-h-screen flex-col p-20">
+      <section className="text-left">
+      <div className="w-full items-center font-mono text-sm">
+        <div className="text-red-900">BeetleKeys Logo</div>
+        <h1 className="text-5xl font-bold  bg-linear-to-r from-red-400 to-amber-500 bg-clip-text text-transparent mb-8">
+          BeetleKeys
         </h1>
-        <button className="px-6 py-3 bg-teal-500 text-white rounded-lg hover:bg-teal-600 transition">
-          はじめる
-        </button>
-        <button className="ml-4 px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition">
-          ドキュメント
-        </button>
-        <div className="mt-10 text-center text-gray-600">
-          BeetleKeys は、効率的でカスタマイズ可能なキーボードショートカット管理ツールです。
-        </div>
       </div>
+    </section>
+    <section className="text-center mt-40">
+      <div className="text-4xl font-bold">
+        <button className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+          Login
+        </button>
+        <button className="ml-6 px-8 py-4 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+          Sign Up
+        </button>
+      </div>
+    </section>
+    <footer className="mt-auto pt-20 text-center text-sm text-gray-600">
+      <p>&copy; {new Date().getFullYear()} BeetleKeys. All rights reserved.</p>
+      <a 
+      href="https://github.com/PandaDev0069/BeetleKeys" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="text-blue-600 hover:text-blue-800 underline"
+      >
+      View on GitHub
+      </a>
+    </footer>
     </main>
   )
 }
