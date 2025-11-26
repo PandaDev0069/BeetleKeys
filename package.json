@@ -1,0 +1,51 @@
+{
+  "name": "beetlekeys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "backend": "nodemon --watch backend --exec ts-node backend/server.ts",
+    "backend:build": "tsc -p backend/tsconfig.json",
+    "backend:start": "node backend/dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PandaDev0069/BeetleKeys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PandaDev0069/BeetleKeys/issues"
+  },
+  "homepage": "https://github.com/PandaDev0069/BeetleKeys#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "next": "^16.0.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.22",
+    "nodemon": "^3.1.11",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
