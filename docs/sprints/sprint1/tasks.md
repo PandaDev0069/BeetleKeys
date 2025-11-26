@@ -1,11 +1,11 @@
-# ✅ Tasks - Sprint [1]
+# ✅ ✅ Tasks - Sprint [1]
 
 ## 🗓 Week 1 (Build)
 
 ### Wednesday (Main Coding Block)
 
-- [ ] Research and finalize tech stack
-- [ ] Set up project structure
+- [ ] Implement feature A
+- [ ] Write test for module B
 
 ### Saturday (Deep Work)
 
