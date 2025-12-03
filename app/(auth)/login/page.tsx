@@ -57,8 +57,8 @@ export default function LoginPage() {
       </div>
     </section>
     {/* Login section */}
-    <section className ="bg-white text-black rounded-xl p-8 shadow-md w-80">
-        <h2 className="mb-4 text-red-500 text-center font-bold">ログイン</h2>
+    <section className ="bg-white text-black rounded-xl p-8 shadow-md w-100">
+        <h2 className="mb-4 text-red-500 text-4xl text-center font-bold">ログイン</h2>
         {error && (
             <p className="mb-4 text-red-500 text-center font-semibold">
             {error}</p>)}
@@ -87,6 +87,15 @@ export default function LoginPage() {
             {loading ? "ログイン中...":"ログイン"}
             </button>
            </form>
+            <div className="text-center">
+            アカウントをお持ちでないですか？{" "}
+            <a
+              href="/register"
+              className="font-medium text-indigo-600 hover:text-indigo-500"
+            >
+              新規登録
+            </a>
+            </div>
           </section>
           
     {/* Footer */}
