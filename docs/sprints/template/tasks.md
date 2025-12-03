@@ -2,20 +2,8 @@
 
 ## 🗓 Week 1 (Build)
 
-### Wednesday (Main Coding Block)
+- [ ] 
 
-- [ ] Implement feature A
-- [ ] Write test for module B
-
-### Saturday (Deep Work)
-
-- [ ] Continue feature A
-- [ ] Debug database save/load
-
-### Sunday (Deep Work)
-
-- [ ] Finish UI component
-- [ ] Review progress
 
 ---
 
