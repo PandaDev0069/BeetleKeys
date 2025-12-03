@@ -56,14 +56,48 @@ export default function LoginPage() {
           <img src="/BeetleKeys.png" alt="BeetleKeys logo" width={250} height={250} />
       </div>
     </section>
+    {/* Login section */}
+    <section className ="bg-white text-black rounded-xl p-8 shadow-md w-80">
+        <h2 className="mb-4 text-red-500 text-center font-bold">ログイン</h2>
+        {error && (
+            <p className="mb-4 text-red-500 text-center font-semibold">
+            {error}</p>)}
+        <form onSubmit={handlesubmit} className="flex flex-col">
+            <input
+            type="email"
+            placeholder="メールアドレス"
+            value={email}
+            onChange={(e)=>setEmail(e.target.value)}
+            className="p-3 mb-4 border rounded"
+            required
+            />
+            <input
+            type="password"
+            placeholder="パスワード"
+            value={password}
+            onChange={(e)=> setPassword(e.target.value)}
+            className="p-3 mb-6 border rounded"
+            required
+            />
+            <button
+            type="submit"
+            disabled={loading}
+            className="bg-blue-600 text-white p-3 rounded hover:bg-blue-700 disabled:opacity-50 "
+        >
+            {loading ? "ログイン中...":"ログイン"}
+            </button>
+           </form>
+          </section>
+          
     {/* Footer */}
-    <footer className="mt-auto pt-20 text-center text-sm text-gray-600">
+
+    <footer className="mt-auto pt-20 text-center text-sm text-gray-300">
       <p>&copy; {new Date().getFullYear()} BeetleKeys. All rights reserved.</p>
       <a 
       href="https://github.com/PandaDev0069/BeetleKeys" 
       target="_blank" 
       rel="noopener noreferrer"
-      className="text-blue-600 hover:text-blue-800 underline"
+      className="text-blue-300 hover:text-blue-100 underline"
       >
       View on GitHub
       </a>
